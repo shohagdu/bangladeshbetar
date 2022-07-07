@@ -1,0 +1,40 @@
+@extends("master_program")
+@section('title_area')
+    :: Program Report ::
+
+@endsection
+@section('show_message')
+    @if(Session::has('message'))
+        <div class="alert alert-success alert-dismissible" id="alert_hide_after" role="alert"
+             style="margin-bottom:10px; ">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            {{ Session::get('message') }}
+        </div>
+    @endif
+@endsection
+@section('main_content_area')
+    <article class="col-sm-12 col-md-12 col-lg-12 padding-bottom-10px" >
+
+        <!-- Widget ID (each widget will need unique ID)-->
+        <div class="jarviswidget" id="wid-id-2" data-widget-colorbutton="false" data-widget-editbutton="false" >
+            <header>
+                <span class="widget-icon"> <i class="fa fa-check txt-color-green"></i> </span>
+                <h2>Program Report </h2>
+            <!--   {{--<a href="<?php  echo asset('/employee_info');?>"  onclick="addEmployee()"--}}
+            {{--class="btn btn-primary btn-xs topbarbutton" ><i--}}
+            {{--class="glyphicon glyphicon-backward"></i>--}}
+            {{--Employee Record--}}
+            {{--</a>--}}-->
+            </header>
+            <div>
+                <div class="widget-body no-padding"  >
+                    <div class="col-sm-12" >
+                        <div class="col-sm-12" style="margin-top:10px;"></div>
+                        Page is updating......
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+@endsection
+

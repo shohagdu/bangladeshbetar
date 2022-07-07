@@ -1,0 +1,43 @@
+[17-Jul-2019 14:28:23 UTC] PHP Warning:  include(dumerchant/login/config/config.php): failed to open stream: No such file or directory in /home/collegedu/public_html/payment/apply/admissionpayment.php on line 7
+[17-Jul-2019 14:28:23 UTC] PHP Warning:  include(dumerchant/login/config/config.php): failed to open stream: No such file or directory in /home/collegedu/public_html/payment/apply/admissionpayment.php on line 7
+[17-Jul-2019 14:28:23 UTC] PHP Warning:  include(): Failed opening 'dumerchant/login/config/config.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/collegedu/public_html/payment/apply/admissionpayment.php on line 7
+[17-Jul-2019 14:28:23 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/collegedu/public_html/payment/apply/admissionpayment.php on line 8
+[17-Jul-2019 14:28:23 UTC] PHP Warning:  mysql_query(): Access denied for user 'collegedu'@'localhost' (using password: NO) in /home/collegedu/public_html/payment/apply/admissionpayment.php on line 8
+[17-Jul-2019 14:28:23 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/collegedu/public_html/payment/apply/admissionpayment.php on line 8
+[17-Jul-2019 14:28:23 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/collegedu/public_html/payment/apply/admissionpayment.php on line 9
+[17-Jul-2019 14:28:23 UTC] PHP Notice:  Undefined index: applicationid in /home/collegedu/public_html/payment/apply/admissionpayment.php on line 14
+[17-Jul-2019 14:28:23 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/collegedu/public_html/payment/apply/admissionpayment.php on line 14
+[17-Jul-2019 14:28:23 UTC] PHP Warning:  mysql_query(): Access denied for user 'collegedu'@'localhost' (using password: NO) in /home/collegedu/public_html/payment/apply/admissionpayment.php on line 14
+[17-Jul-2019 14:28:23 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/collegedu/public_html/payment/apply/admissionpayment.php on line 14
+[17-Jul-2019 14:28:23 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/collegedu/public_html/payment/apply/admissionpayment.php on line 15
+[17-Jul-2019 14:28:23 UTC] PHP Notice:  Undefined index: applicationid in /home/collegedu/public_html/payment/apply/admissionpayment.php on line 18
+[17-Jul-2019 14:28:23 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/collegedu/public_html/payment/apply/admissionpayment.php on line 18
+[17-Jul-2019 14:28:23 UTC] PHP Warning:  mysql_query(): Access denied for user 'collegedu'@'localhost' (using password: NO) in /home/collegedu/public_html/payment/apply/admissionpayment.php on line 18
+[17-Jul-2019 14:28:23 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/collegedu/public_html/payment/apply/admissionpayment.php on line 18
+[17-Jul-2019 14:28:23 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/collegedu/public_html/payment/apply/admissionpayment.php on line 19
+[17-Jul-2019 14:28:23 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/collegedu/public_html/payment/apply/admissionpayment.php on line 20
+[17-Jul-2019 14:51:06 UTC] PHP Warning:  include(dumerchant/login/config/config.php): failed to open stream: No such file or directory in /home/collegedu/public_html/payment/apply/index.php on line 7
+[17-Jul-2019 14:51:06 UTC] PHP Warning:  include(dumerchant/login/config/config.php): failed to open stream: No such file or directory in /home/collegedu/public_html/payment/apply/index.php on line 7
+[17-Jul-2019 14:51:06 UTC] PHP Warning:  include(): Failed opening 'dumerchant/login/config/config.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/collegedu/public_html/payment/apply/index.php on line 7
+[17-Jul-2019 14:51:06 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/collegedu/public_html/payment/apply/index.php on line 8
+[17-Jul-2019 14:51:06 UTC] PHP Warning:  mysql_query(): Access denied for user 'collegedu'@'localhost' (using password: NO) in /home/collegedu/public_html/payment/apply/index.php on line 8
+[17-Jul-2019 14:51:06 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/collegedu/public_html/payment/apply/index.php on line 8
+[17-Jul-2019 14:51:06 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/collegedu/public_html/payment/apply/index.php on line 9
+[17-Jul-2019 14:51:06 UTC] PHP Notice:  Undefined index: applicationid in /home/collegedu/public_html/payment/apply/index.php on line 14
+[17-Jul-2019 14:51:06 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/collegedu/public_html/payment/apply/index.php on line 14
+[17-Jul-2019 14:51:06 UTC] PHP Warning:  mysql_query(): Access denied for user 'collegedu'@'localhost' (using password: NO) in /home/collegedu/public_html/payment/apply/index.php on line 14
+[17-Jul-2019 14:51:06 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/collegedu/public_html/payment/apply/index.php on line 14
+[17-Jul-2019 14:51:06 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/collegedu/public_html/payment/apply/index.php on line 15
+[17-Jul-2019 14:51:06 UTC] PHP Warning:  include(process/uppermenu.php): failed to open stream: No such file or directory in /home/collegedu/public_html/payment/apply/index.php on line 30
+[17-Jul-2019 14:51:06 UTC] PHP Warning:  include(process/uppermenu.php): failed to open stream: No such file or directory in /home/collegedu/public_html/payment/apply/index.php on line 30
+[17-Jul-2019 14:51:06 UTC] PHP Warning:  include(): Failed opening 'process/uppermenu.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/collegedu/public_html/payment/apply/index.php on line 30
+[17-Jul-2019 14:51:06 UTC] PHP Fatal error:  Call to undefined function eng2bnNumber() in /home/collegedu/public_html/payment/apply/index.php on line 52
+[17-Jul-2019 14:51:22 UTC] PHP Notice:  Undefined index: applicationid in /home/collegedu/public_html/payment/apply/index.php on line 5
+[17-Jul-2019 14:51:22 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/collegedu/public_html/payment/apply/index.php on line 5
+[17-Jul-2019 14:51:22 UTC] PHP Warning:  mysql_query(): Access denied for user 'collegedu'@'localhost' (using password: NO) in /home/collegedu/public_html/payment/apply/index.php on line 5
+[17-Jul-2019 14:51:22 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/collegedu/public_html/payment/apply/index.php on line 5
+[17-Jul-2019 14:51:22 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/collegedu/public_html/payment/apply/index.php on line 6
+[17-Jul-2019 14:51:22 UTC] PHP Warning:  include(process/uppermenu.php): failed to open stream: No such file or directory in /home/collegedu/public_html/payment/apply/index.php on line 21
+[17-Jul-2019 14:51:22 UTC] PHP Warning:  include(process/uppermenu.php): failed to open stream: No such file or directory in /home/collegedu/public_html/payment/apply/index.php on line 21
+[17-Jul-2019 14:51:22 UTC] PHP Warning:  include(): Failed opening 'process/uppermenu.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/collegedu/public_html/payment/apply/index.php on line 21
+[17-Jul-2019 14:51:22 UTC] PHP Fatal error:  Call to undefined function eng2bnNumber() in /home/collegedu/public_html/payment/apply/index.php on line 43

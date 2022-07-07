@@ -1,0 +1,438 @@
+@media print {
+    .no-print,a{
+        display: none !important;
+    }
+    .show-print-date{
+        display: block !important;
+        position: absolute;
+        top:10px;
+        left:82%;
+    }
+    #print_table{
+        width:100%;
+    }
+    #print_table td{
+        font-family: Arial, Verdana, sans-serif;
+        border:1px solid #d0d0d0 !important;
+        font-size:15px !important;
+        padding-left:2px;
+
+    }
+    #print_table th{
+        font-family: Arial, Verdana, sans-serif;
+        border:1px solid #d0d0d0 !important;;
+        font-size:15px !important;
+        padding-left:2px;
+        font-weight: bold;
+    }
+    #title_info_print{
+        font-size:14px !important;
+    }
+    a[href]:after {
+        content: none !important;
+    }
+    li{
+        list-style: none;
+    }
+    #table-style{
+        width:100%;
+    }
+    #table-style td{
+        font-family: Arial, Verdana, sans-serif;
+        border:1px solid #d0d0d0;
+        font-size:15px !important;
+        padding-left:5px !important;
+        padding-top:5px !important;
+
+    }
+    #table-style th{
+        font-family: Arial, Verdana, sans-serif;
+        border:1px solid #d0d0d0;
+        font-size:15px !important;
+        padding-left:5px !important;
+        padding-top:5px !important;
+        font-weight: bold;
+    }
+    table {
+        border: solid #d0d0d0 !important;
+        border-width: 1px 0 0 1px !important;
+    }
+    th, td {
+        border: solid #d0d0d0 !important;
+        border-width: 0 1px 1px 0 !important;
+    }
+
+    #print_table-no-border{
+        width:100%;
+    }
+    #print_table-no-border td{
+        font-family: Arial, Verdana, sans-serif;
+        border:1px solid #fff !important;
+        font-size:13px !important;
+        padding-left:2px;
+
+    }
+    #print_table-no-border th{
+        font-family: Arial, Verdana, sans-serif;
+        border:1px solid #fff !important;;
+        font-size:13px !important;
+        padding-left:2px;
+        font-weight: bold;
+    }
+}
+
+
+.header-button {
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+label {
+    font-weight: bold !important;
+}
+
+#exampleModalLabel {
+    font-weight: bold !important;
+}
+
+.topbarbutton {
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.padding-bottom-10px {
+    padding-bottom: 10px;
+}
+
+.width100per {
+    width: 100% !important;
+}
+
+.width50per {
+    width: 50% !important;
+}
+
+.width60per {
+    width: 60% !important;
+}
+
+.width70per {
+    width: 70% !important;
+}
+
+.width80per {
+    width: 80% !important;
+}
+
+.width90per {
+    width: 90% !important;
+    margin-left: 5%;
+}
+.width4per {
+    width: 4% !important;
+}
+.width5per {
+    width: 5% !important;
+}
+
+.width6per {
+    width: 6% !important;
+}
+
+.width10per {
+    width: 10% !important;
+}
+
+.width15per {
+    width: 15% !important;
+}
+
+.width20per {
+    width: 20% !important;
+}
+
+.width25per {
+    width: 25% !important;
+}
+
+.width30per {
+    width: 30% !important;
+}
+
+.emp-text-right {
+    text-align: right !important;
+    padding-right: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.employee-details-heading {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 4px;
+    border-bottom: 1px solid gray !important;
+    background: #eee;
+    margin-top: 10px !important;
+}
+
+.font-size-18px {
+    font-size: 18px !important;
+}
+
+.Inactive {
+    color: red;
+    font-weight: bold;
+}
+
+.Active {
+    color: green;
+    font-weight: bold;
+}
+
+.ui-helper-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.leave-table td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.leave-table th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.padding10px {
+    padding: 10px;
+}
+
+#table-style td {
+    border: 1px solid #d0d0d0;
+    padding: 2px !important;
+    font-size:11px !important;
+}
+
+#table-style th {
+    border: 1px solid #d0d0d0;
+    padding: 2px !important;
+    font-size:11px !important;
+}
+
+.padding-top-50-pixel {
+    padding-top: 50px !important;
+}
+
+.leave-reason {
+    height: 250px;
+    vertical-align: top
+}
+
+.vertical-align-top {
+    vertical-align: top !important;
+}
+
+.modal-body {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+
+#employee_details td {
+    padding: 5px;
+    border-bottom: 1px solid #d0d0d0;
+    color: #333;
+
+}
+
+#employee_details th {
+    padding: 5px;
+    border-bottom: 1px solid #d0d0d0;
+
+}
+
+#employee_details_pdf td {
+    padding: 3px;
+    border-bottom: 1px solid #d0d0d0;
+    color: #333 !important;
+    font-size: 11px;
+
+}
+
+#employee_details_pdf th {
+    padding: 3px;
+    border-bottom: 1px solid #d0d0d0;
+    font-size: 11px;
+
+}
+
+.leave_info_pdf td {
+    padding: 2px 5px;
+    border: 1px solid gray !important;
+    color: #333 !important;
+    font-size: 9px !important;
+
+}
+
+.no-border {
+    border-width: 0 !important
+}
+
+.no-border-transparent {
+    border-color: transparent !important
+}
+
+.ui-autocomplete {
+    z-index: 215000000 !important;
+}
+
+
+/*scroll bar css start*/
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/*scroll bar css end*/
+
+
+#default_table td {
+    padding: 5px;
+    font-size: 9px;
+}
+
+#default_table th {
+    padding: 5px;
+    font-size: 9px;
+}
+
+/* for dashboar css start */
+.widget-box-header {
+    background: #eee;
+    padding: 20px !important;
+    border-radius: 5px;
+    margin-left: 5px;
+
+}
+
+.widget-box-header > a {
+    color: white;
+}
+
+.widget-box-header:hover {
+    -webkit-box-shadow: 3px 3px 3px 3px #333;
+    -moz-box-shadow: 3px 3px 3px 3px #333;
+    box-shadow: 3px 3px 3px 3px #333;
+}
+
+.icon-size {
+    font-size: 30px;
+}
+
+.widget-box-text {
+    font-size: 14px;
+    font-weight: bolder;
+    vertical-align: top;
+    padding-left: 10px !important;
+}
+
+.orange {
+    background: orange;
+}
+
+.blue {
+    background: #00add7;
+}
+
+.green {
+    background: #00A65A;
+}
+
+.darkred {
+    background: #F56954;
+}
+
+.red {
+    background: red;
+}
+
+
+/* for dashboar css end */
+
+
+.margin-top-10px{
+    margin-top:10px !important;
+}
+.margin-top-20px{
+    margin-top:20px !important;
+}
+
+.sub-table td{
+    font-size:10px;
+}
+.mandatory_field{
+    color:red;
+}
+
+.gate_passed_heading td{
+    border:1px solid #fff !important;
+}
+.gate_passed_body td{
+    border:1px solid #d0d0d0 !important;
+}
+
+.modal-header, h4, .close {
+    background-color: #5cb85c;
+    color:white !important;
+}
+.modal-footer {
+    background-color: #f9f9f9;
+}
+
+#presentation_table td {
+    border: 1px solid #d0d0d0;
+    font-size:12px;
+}
+#presentation_table th {
+    border: 1px solid #d0d0d0;
+    font-size:12px;
+}
+
+.mydivAjaxImage {
+    position: relative;
+    display: none;
+}
+.ajax-loader {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    margin-left: -32px; /* -1 * image width / 2 */
+    margin-top: -32px; /* -1 * image height / 2 */
+}
